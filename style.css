@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #01060e;             /* Primary background color */
+    --second-bg-color: #f6f7fb;      /* Secondary background color */
+    --text-color: #f5efef;
+    --main-color: rgb(227, 238, 239);           /* Text color (adjusted for better contrast) */
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    color: var(--main-color);
+} */
+/* 
+.secondary {
+    background-color: var(--second-bg-color); */
+
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 20px; /* Ensure padding uses pixels */
+    display: flex;
+    background: var(--bg-color);
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    color: #ffffff;
+    cursor: default;
+    /* user-select: none;   */
+  } 
+
+.navbar a {
+        position: relative;
+        font-size: 1.4em;
+        color: #ffffff; /* Set text color to white */
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 30px; /* Adjust margin for spacing */
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+        color: var(--main-color); /* Retain hover and active color */
+    }
+
+  #menu-icon{
+    font-size: 1.2rem;
+     color: var(--second-bg-color);
+    /* display: none; */
+  }
+
+
